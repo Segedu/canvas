@@ -96,9 +96,36 @@ canvas.width = window.innerWidth;
 // }
 
 //!12
-for (let i = 0; i < 10; i++) {
-    context.beginPath()
-    context.fillStyle = '#' + Math.floor(Math.random() * 16777215).toString(16)
-    context.arc(Math.random() * 1000, Math.random() * 400, 30, 0, 2 * Math.PI);
-    context.fill();
-}
+// for (let i = 0; i < 10; i++) {
+//     context.beginPath()
+//     context.fillStyle = '#' + Math.floor(Math.random() * 16777215).toString(16)
+//     context.arc(Math.random() * 1000, Math.random() * 400, 30, 0, 2 * Math.PI);
+//     context.fill();
+// }
+
+//!class
+// context.beginPath();
+// context.moveTo(20, 20);
+// context.lineTo(20, 100);
+// context.lineTo(70, 100);
+// context.moveTo(20, 20);
+// context.lineTo(70, 100);
+// context.stroke();
+
+
+// context.beginPath();
+// context.moveTo(120, 120);
+// context.lineTo(120, 200);
+// context.lineTo(100, 200);
+// context.moveTo(120, 120);
+// context.lineTo(100, 200);
+// context.stroke();
+
+
+context.beginPath();
+context.moveTo(200, 200);
+context.lineTo(120, 200);
+context.lineTo(90, 120);
+context.fill()
+
+
